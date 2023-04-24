@@ -111,5 +111,6 @@ for data in os.listdir('../Data_Jas/'):
                 ax.set_title(f'{d}_{c}(g/hr)');
                 ax.set_xlim([100.325, 100.96])
                 ax.set_ylim([13.91, 14.29])
+                print(f'{d}_{c}')
                 fig.savefig(f'../Traffic_figure/{d}_{e}.png', bbox_inches = 'tight')
                 #version1
